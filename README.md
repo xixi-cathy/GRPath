@@ -130,7 +130,7 @@ Checking "alter_pathogenic_region_variant_egene.csv" and "ref_pathogenic_region_
 
 
 
-### 3. Predict noteworthy cell types and the full regulation paths
+### 3. Predict noteworthy cell types and get the complete gene regulation paths
 
 Now, if you want to dig further, you could incorporate scRNA-seq data of disease and control samples, and extend the regulation paths to cell type level. You should prepare the following files:
 
