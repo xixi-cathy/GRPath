@@ -4,7 +4,7 @@
 
 **GRPath** is a computational framework that can calculate the genotype-to-phenotype gene regulation paths in the form of **"causal genomic region-causal variant-causal eGene-noteworthy cell type-disease phenotype"** for diseases.
 
-<img src=".\images\fig1.jpg" alt="overview" style="zoom:17%;" />
+<img src=".\images\fig1.jpg" alt="overview" style="zoom:17%;" />  
 
 
 
@@ -12,7 +12,7 @@
 
 ## Author
 
-Xi Xi xix19@mails.tsinghua.edu.cn
+Xi Xi xix19@mails.tsinghua.edu.cn  
 
 
 
@@ -53,7 +53,7 @@ pip install collections
 install.packages("dplyr")
 install.packages("tidyr")
 ```
-
+  
 
 ### Data preparation
 
@@ -75,11 +75,11 @@ You should first decide the disease you would like to study, then prepare the fo
 
 - **scRNA-seq** data of disease and control samples.
 
-  The scRNA-seq data are not necessarily from the same samples that provide WGS, RNA-seq and disease phenotype, but the disease cells should be of the exact disease you would like to study. For example, cHF.
+  The scRNA-seq data are not necessarily from the same samples that provide WGS, RNA-seq and disease phenotype, but the disease cells should be of the exact disease you would like to study. For example, cHF.  
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
 
 ### 1. Calculate the chromatin openness scores
@@ -96,7 +96,7 @@ First, you may refer to the method proposed by [Li et al.](https://www.pnas.org/
 
 - **RE_openness.txt**: an RE-by-sample matrix that denotes the openness scores predicted from reference genomes of all REs that contain the variants in "variant_openness.txt". Note: a donor may provide multiple samples.
 
-  The first 3 columns should be the RE information, which are RE chromosome, RE starting site and RE ending site.
+  The first 3 columns should be the RE information, which are RE chromosome, RE starting site and RE ending site.  
 
 
 
@@ -126,7 +126,7 @@ The output files are:
 - **ref_pathogenic_region_variant_egene.csv**: reference-allele-pathogenic regions and causal variants within and corresponding causal eGenes.
 - A "processing" folder that contains some intermediate products.
 
-Checking "alter_pathogenic_region_variant_egene.csv" and "ref_pathogenic_region_variant_egene.csv", you may find some interesting biological stories.
+Checking "alter_pathogenic_region_variant_egene.csv" and "ref_pathogenic_region_variant_egene.csv", you may find some interesting biological stories.  
 
 
 
@@ -150,7 +150,7 @@ bash predict_regulation_path.sh
 The output files are:
 
 - **regulation_path.csv**: final regulation paths in the form of "causal genomic region-causal variant-causal eGene-noteworthy cell type-disease phenotype".
-- cell_type_auc_mean.csv and cell_type_auc_std.csv in the "processing" folder as intermediate products.
+- cell_type_auc_mean.csv and cell_type_auc_std.csv in the "processing" folder as intermediate products.  
 
 
 
@@ -165,7 +165,7 @@ bash predict_region_variant_egene.sh
 bash predict_regulation_path.sh
 ```
 
-to find the regulation paths for heart failure caused by coronary heart disease (cHF).
+to find the regulation paths for heart failure caused by coronary heart disease (cHF).  
 
 
 
