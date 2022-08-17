@@ -4,7 +4,7 @@
 
 **GRPath** is a computational framework that can calculate the genotype-to-phenotype gene regulation paths in the form of **"causal genomic region-causal variant-causal eGene-noteworthy cell type-disease phenotype"** for diseases.
 
-<img src=".\images\fig1.jpg" alt="overview" style="zoom:17%;" />
+<img src=".\figure\fig.jpg" alt="overview" style="zoom:10%;" />
 
 
 
