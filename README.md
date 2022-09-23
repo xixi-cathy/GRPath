@@ -34,7 +34,7 @@ We recommend using GRPath in Anaconda environment, where compatible Python and R
 
 ## Example
 
-You may download the demo_data and run:
+You may download the code and demo_data, and run:
 
 ```sh
 bash predict_region_variant_egene.sh
