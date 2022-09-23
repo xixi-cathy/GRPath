@@ -9,7 +9,7 @@ p.thresh <- as.numeric(args[1])
 
 alter_name = "/../processing/region_alter_pathogenic.csv"
 ref_name = "/../processing/region_reference_pathogenic.csv"
-snps_name = "/../demo_data/GWAS.txt"
+snps_name = "/../demo_data/gwas_snps_pos.txt"
 eqtls_name = "/../demo_data/eqtls_200kb.txt"
 
 greater <- read.csv(paste0(init_path, alter_name), header = T, stringsAsFactors = F)
