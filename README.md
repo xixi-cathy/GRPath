@@ -22,6 +22,14 @@ Xi Xi xix19@mails.tsinghua.edu.cn
 
 
 
+<!-- DEPENDENCIES -->
+
+## Dependencies
+
+We recommend using GRPath in Anaconda environment, where compatible Python and R packages should be installed. You may download the **requirement.txt** file to find out all the dependencies needed.
+
+
+
 <!-- EXAMPLE -->
 
 ## Example
