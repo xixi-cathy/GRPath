@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore")
 
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
 os.environ['MKL_NUM_THREADS'] = '1'
-snps_name = "GWAS.txt"
+snps_name = "gwas_snps_pos.txt"
 variant_openness_name = "variant_openness.txt"
 variant_allele_name = "variant_allele.txt"
 variant_pos_name = "variant_pos.txt"
